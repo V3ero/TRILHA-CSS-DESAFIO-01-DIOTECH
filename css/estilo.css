@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+    font-family: 'Raleway';
+}
+h2 {
+    font-size: 32px;
+    text-transform: uppercase;
+    line-height: 37.57px;
+    color: #33A8DB;
+    font-stretch: expanded;
+    margin-bottom: 10px;
+}
+
+/* Estilo do header*/
+header{
+    background-image: url(../assets/images/banner.png),linear-gradient(rgba(0, 0, 0, 0.6), rgba(49, 168, 221, 0.6));
+    height: 605px;
+    width: 1440px;
+}
+h1{
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+span, h1{
+    color: #33A8DB;
+}
+.banner-content{
+    width: 510px;
+    height: 393px;
+    margin-top: 56px;
+    margin-left: 465px;
+}
+.logo{
+    background-image: url(../assets/images/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.20);
+    width: 268px;
+    height: 268px;
+    border-radius: 100%;
+    margin-left: 115px;
+    font-size: 20px;
+    font-family: 'Raleway';
+    line-height: 23.48px;
+}
+button{
+    width: 326px;
+    height: 57px;
+    margin-top: 26px;
+    border: solid 2px #3ba1cd;
+    border-image-slice: 1;
+    background-color: transparent;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #33A8DB;
+}
+
+/* Estilo da main*/
+/*1ª  seção*/
+#course-content{
+    width: 792px;
+    height: 325px;
+    margin-left: 324px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.modules-list{
+    padding-left: 120px;
+    margin-top: 50px;
+    grid-gap: 15px;
+}
+.module{
+    width: 535px;
+    height: 51px;
+    border-radius: 57px;
+    border: solid 1px #33A8DB;
+    background-color: #252525;
+    align-items: center;
+    padding-top: 14px;
+    margin-top: 20px;
+}
+
+/*2ªseção*/
+#transform-world{
+    background-image: url(../assets/images/woman-code.png);
+    background-size: cover;
+    background-position: center;
+    width: 1440px;
+    height: 363px;
+}
+#texto_mot{
+    margin-left: 150px;
+    padding-top: 120px;
+    font-size: 40px;
+    width: 300px;
+    height: 141px;
+    display: flex;
+    flex-direction: initial;
+    text-shadow: 1px 1px #33A8DB, -1px -1px #444;
+    font-family: 'Raleway ExtraBold';
+    text-transform: lowercase;
+}
+
+/* 3ª seção */
+#professional-challenges{
+    width: 1440px;
+    padding: 80px 324px;
+}
+#professional-challenges img{
+    width: 659px;
+    height: 429px;
+}
+
+/* rodapé*/
+footer{
+    width: 1440px;
+    height: 170px;
+}
